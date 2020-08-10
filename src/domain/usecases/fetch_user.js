@@ -17,7 +17,7 @@ export const fetchUser = () => {
     storage.getUserToken()
     |> userRepository.refetchUser
     |> Either.fold(
-      storage.getUser(),
+      storage.getUser,
       user =>
         user |> R.tap(storage.saveUser) |> Option.some(user)
     )
