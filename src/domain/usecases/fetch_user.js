@@ -10,8 +10,8 @@ const container = { resolve: () => {} }
 
 // fetchUser :: IO (Maybe User)
 export const fetchUser = () => {
-  const userRepository = container.resolve(UserRepository)
-  const storage = container.resolve(Storage)
+  const userRepository = container.resolve(UserRepository) // this can be whatever the infra layer wants it to be
+  const storage = container.resolve(Storage) // this can be async_storage or realm db
 
   return (
     storage.getUserToken()
