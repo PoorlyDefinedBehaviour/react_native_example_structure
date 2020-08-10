@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "heart_4noobs",
-    "slug": "heart_4noobs",
+    "name": "react_native_structure_example",
+    "slug": "react_native_structure_example",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -13,9 +13,7 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },
