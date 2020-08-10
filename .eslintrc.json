@@ -1,0 +1,29 @@
+{
+  "parser": "@babel/eslint-parser",
+  "env": {
+    "browser": true,
+    "es2020": true
+  },
+  "extends": [
+    "plugin:react/recommended",
+    "airbnb-base",
+    "plugin:prettier/recommended"
+  ],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 11,
+    "sourceType": "module"
+  },
+  "plugins": ["react", "@babel"],
+  "rules": {
+    "no-unused-vars": [
+      2,
+      { "args": "all", "argsIgnorePattern": "^_+" }
+    ],
+    "no-unused-expressions": "off",
+    "import/prefer-default-export": "off",
+    "quotes": "off"
+  }
+}
