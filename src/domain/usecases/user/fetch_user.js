@@ -2,8 +2,7 @@ import * as R from "ramda"
 import * as Either from "fp-ts/lib/Either"
 import * as Option from "fp-ts/lib/Option"
 
-import { UserRepository } from "../repositories/user_repository"
-import { Storage } from "../../core/storage"
+import { Storage } from "../../../core/storage"
 
 // imported from somewhere
 const container = { resolve: () => {} }

@@ -1,1 +1,1 @@
-export const UserRepository = "some_kind_of_container_token"
+export const UserRepository = "some kind of token"
